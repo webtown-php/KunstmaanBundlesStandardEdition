@@ -1,3 +1,12 @@
+What is the difference
+======================
+
+- NodeJs configuration option
+
+## NodeJS configuration option
+
+There are different NodeJS paths in some cases. The original Edition does not support the set different paths in different server or in different development environments on installation. 
+
 Kunstmaan Bundles Standard Edition
 ==================================
 
