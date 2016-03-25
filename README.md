@@ -1,11 +1,8 @@
 What is the difference
 ======================
 
-- NodeJs configuration option
-
-## NodeJS configuration option
-
-There are different NodeJS paths in some cases. The original Edition does not support the set different paths in different server or in different development environments on installation. 
+- Added **NodeJs configuration option**. There are different NodeJS paths in some cases. The original Edition does not support the set different paths in different server or in different development environments on installation. 
+- Added **PHP CS Fixer with `.php_cs` config file**. Using: `bin/php-cs-fixer fix --config-file=.php_cs`
 
 Kunstmaan Bundles Standard Edition
 ==================================

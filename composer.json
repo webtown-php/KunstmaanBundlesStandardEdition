@@ -30,7 +30,8 @@
         "phpunit/phpunit": "~4.4",
         "fzaninotto/faker": "~1.5",
         "nelmio/alice": "~1.6",
-        "fabpot/goutte": "~1.0"
+        "fabpot/goutte": "~1.0",
+        "fabpot/php-cs-fixer": "~1.11@dev"
     },
     "scripts": {
         "post-root-package-install": [
