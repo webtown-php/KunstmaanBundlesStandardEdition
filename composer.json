@@ -66,10 +66,6 @@
         {
             "type": "vcs",
             "url":  "git@github.com:webtown-php/KunstmaanSetupBundle.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:webtown-php/DoctrineSchemaUpdateBundle.git"
         }
     ],
     "extra": {
