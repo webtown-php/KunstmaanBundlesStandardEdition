@@ -17,6 +17,7 @@
         "doctrine/doctrine-migrations-bundle": "~1.1.1",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "kriswallsmith/spork": "~0.3.0",
+        "webtown/doctrine-schema-update-bundle": "~1.0",
         "webtown/kunstmaan-setup-bundle": "dev-master"
     },
     "require-dev": {
@@ -65,6 +66,10 @@
         {
             "type": "vcs",
             "url":  "git@github.com:webtown-php/KunstmaanSetupBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:webtown-php/DoctrineSchemaUpdateBundle.git"
         }
     ],
     "extra": {
