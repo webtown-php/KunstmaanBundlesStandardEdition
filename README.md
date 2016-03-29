@@ -4,6 +4,7 @@ What is the difference
 - Added **NodeJs configuration option**. There are different NodeJS paths in some cases. The original Edition does not support the set different paths in different server or in different development environments on installation. 
 - Added **PHP CS Fixer with `.php_cs` config file**. Using: `bin/php-cs-fixer fix --config-file=.php_cs`
 - Added **Webtown/KunstmaanSetupBundle** and upgrade README.md
+- Added **Webtown/WebtownDoctrineSchemaUpdateBundle**
 
 Install with Webtown/KunstmaanSetupBundle
 =========================================
