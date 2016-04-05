@@ -5,6 +5,7 @@ What is the difference
 - Added **PHP CS Fixer with `.php_cs` config file**. Using: `bin/php-cs-fixer fix --config-file=.php_cs`
 - Added **Webtown/KunstmaanSetupBundle** and upgrade README.md
 - Added **Webtown/WebtownDoctrineSchemaUpdateBundle**
+- Added **.gitattributes** file
 
 Install with Webtown/KunstmaanSetupBundle
 =========================================
