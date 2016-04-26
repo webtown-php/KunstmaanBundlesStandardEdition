@@ -18,7 +18,8 @@
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "kriswallsmith/spork": "~0.3.0",
         "webtown/doctrine-schema-update-bundle": "~1.0",
-        "webtown/kunstmaan-setup-bundle": "dev-master"
+        "webtown/kunstmaan-setup-bundle": "dev-master",
+        "webtown/kunstmaan-extension-bundle": "~1.0.1"
     },
     "require-dev": {
         "behat/behat": "~2.5.0",
