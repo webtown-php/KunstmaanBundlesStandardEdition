@@ -225,3 +225,46 @@ ekino_new_relic:
     log_commands:   true
     transaction_naming: service
     transaction_naming_service: kunstmaan_newrelic_naming_strategy
+
+jms_translation:
+    locales: [hu]
+    custom_form_config_names: ['info_text', 'empty_value']
+    configs:
+        app:
+            keep: true
+            dirs:
+                - "%kernel.root_dir%/Resources"
+                - "%kernel.root_dir%/DoctrineMigrations"
+                - "%kernel.root_dir%/../src"
+                - "%kernel.root_dir%/../vendor/kunstmaan/bundles-cms/src/Kunstmaan"
+                - "%kernel.root_dir%/../vendor/white-october/pagerfanta-bundle"
+                - "%kernel.root_dir%/../vendor/webtown"
+            output_dir: "%kernel.root_dir%/Resources/translations"
+            ignored_domains:
+                - FOSUserBundle
+            excluded_names:
+                - "*TestCase.php"
+                - "*Test.php"
+                - "*Context.php"
+                - "*Interface.php"
+                - ExtendedMinkContext.php
+                - FeatureContext.php
+                - UnitTestCase.php
+            excluded_dirs:
+                - Tests
+                - MuninBundle
+                - Features/Context
+                - Features/SubContext
+                - cache
+                - data
+                - logs
+                - vendor
+                - .git
+                - .idea
+                - web
+                - GeneratorBundle
+                - LeadGenerationBundle
+                - MultiDomainBundle
+            output_options:
+                xlf:
+                    add_date: false
