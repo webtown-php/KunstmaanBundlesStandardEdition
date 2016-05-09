@@ -6,13 +6,14 @@ What is the difference
 - Added **Webtown/KunstmaanSetupBundle** and upgrade README.md
 - Added **Webtown/WebtownDoctrineSchemaUpdateBundle**
 - Added **.gitattributes** file
+- Change **parameters.yml.dist**, use the `%database_name%` parameter
 
 Install with Webtown/KunstmaanSetupBundle
 =========================================
 
 ```
     composer install
-    bin/update-km-project
+    bin/init-existing-km-project
 ```
 
 The `bin/update-km-project` command check and install everything what you need.
