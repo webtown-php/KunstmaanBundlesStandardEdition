@@ -16,7 +16,10 @@ Install with Webtown/KunstmaanSetupBundle
     bin/init-existing-km-project
 ```
 
-The `bin/update-km-project` command check and install everything what you need.
+The `bin/init-existing-km-project` command check and install everything what you need.
+
+Javascripts
+===========
 
 Kunstmaan Bundles Standard Edition
 ==================================
